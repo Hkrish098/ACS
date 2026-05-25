@@ -20,19 +20,19 @@ export function Hero() {
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="space-y-6">
           <div className="space-y-2">
-            <p className="text-sm font-semibold text-primary uppercase tracking-wide">Supply Chain Innovation</p>
+            <p className="text-sm font-semibold text-primary uppercase tracking-wide">Smart Automation Solutions</p>
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-foreground">
-              Intelligent Logistics Automation
+              Advanced Automation for Industry 4.0
             </h1>
           </div>
 
           <p className="max-w-2xl mx-auto text-lg sm:text-xl text-foreground/70 leading-relaxed">
-            Unlock unprecedented efficiency with our supply chain automation platform. Real-time insights, intelligent routing, and predictive analytics for enterprises worldwide.
+            Ascent Control System delivers cutting-edge automation solutions including Robotics, PLC Programming, SCADA Development, HMI Design, IoT, and Motion Control systems for industrial transformation.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center pt-8">
             <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground gap-2">
-              Start Free Trial
+              Get Started
               <ArrowRight className="w-4 h-4" />
             </Button>
             <Button size="lg" variant="outline" className="border-primary text-primary hover:bg-primary/5">
@@ -41,7 +41,7 @@ export function Hero() {
           </div>
 
           <p className="text-sm text-foreground/50 pt-4">
-            Trusted by 500+ enterprises across 50 countries
+            Trusted by industry leaders for automation excellence
           </p>
         </div>
       </div>

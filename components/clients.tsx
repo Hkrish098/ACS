@@ -2,69 +2,50 @@
 
 export function Clients() {
   const clients = [
-    'Global Logistics Inc.',
-    'FastShip Networks',
-    'Tech Supply Co.',
-    'Retail Distribution',
-    'Express Delivery Co.',
-    'Supply Chain Hub',
-    'Logistics Pioneer',
-    'Commerce Solutions',
-    'Distribution Masters',
-    'Global Networks',
-    'Supply Partners',
-    'Efficiency Systems',
+    'Bonfiglioli',
+    'TATA MOTORS',
+    'APAR TECHNOLOGY',
+    'Mahindra',
+    'ANAND MANDO',
+    'TALBROS',
+    'Kirloskar',
+    'TATA GOTION',
+    'eECA MOBILITY',
+    'GEBERIT',
   ]
 
   return (
-    <section className="py-20 sm:py-24 bg-muted/50">
+    <section className="py-20 sm:py-32 bg-muted/30">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-12">
-          <p className="text-sm font-semibold text-primary uppercase tracking-wide mb-4">Trusted by Industry Leaders</p>
-          <h2 className="text-3xl sm:text-4xl font-bold text-foreground">
-            500+ Enterprise Clients Worldwide
+        <div className="text-center space-y-4 mb-16">
+          <p className="text-sm font-semibold text-primary uppercase tracking-wide">Trusted By Industry Leaders</p>
+          <h2 className="text-4xl sm:text-5xl font-bold text-foreground">
+            Our Valued Customers
           </h2>
+          <p className="max-w-2xl mx-auto text-lg text-foreground/70">
+            Leading companies partner with Ascent Control Systems for advanced automation solutions.
+          </p>
         </div>
 
-        {/* Marquee Container */}
-        <div className="relative overflow-hidden">
-          <div className="flex gap-8 animate-marquee whitespace-nowrap">
-            {[...clients, ...clients].map((client, index) => (
-              <div
-                key={index}
-                className="flex-shrink-0 px-6 py-3 rounded-lg border border-border bg-background/50 hover:border-primary/50 transition-colors"
-              >
-                <span className="text-foreground font-medium text-sm sm:text-base">
-                  {client}
-                </span>
-              </div>
-            ))}
-          </div>
-
-          {/* Gradient overlays */}
-          <div className="absolute left-0 top-0 bottom-0 w-20 bg-gradient-to-r from-muted/50 to-transparent pointer-events-none" />
-          <div className="absolute right-0 top-0 bottom-0 w-20 bg-gradient-to-l from-muted/50 to-transparent pointer-events-none" />
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
+          {clients.map((client, index) => (
+            <div
+              key={index}
+              className="group relative bg-card rounded-lg border border-border p-6 flex items-center justify-center min-h-24 hover:border-primary/50 hover:shadow-lg transition-all duration-300 overflow-hidden"
+            >
+              <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
+              <p className="relative z-10 text-center font-semibold text-foreground/80 group-hover:text-primary transition-colors text-sm">
+                {client}
+              </p>
+            </div>
+          ))}
         </div>
 
-        {/* Marquee animation */}
-        <style jsx>{`
-          @keyframes marquee {
-            0% {
-              transform: translateX(0);
-            }
-            100% {
-              transform: translateX(-50%);
-            }
-          }
-          
-          .animate-marquee {
-            animation: marquee 30s linear infinite;
-          }
-          
-          .animate-marquee:hover {
-            animation-play-state: paused;
-          }
-        `}</style>
+        <div className="mt-16 text-center">
+          <p className="text-lg text-foreground/70">
+            Join industry leaders choosing Ascent Control Systems for innovation and reliability
+          </p>
+        </div>
       </div>
     </section>
   )

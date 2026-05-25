@@ -11,9 +11,9 @@ export function Footer() {
         {/* CTA Section */}
         <div className="mb-16 pb-16 border-b border-background/20">
           <div className="text-center max-w-3xl mx-auto space-y-6">
-            <h2 className="text-4xl sm:text-5xl font-bold">Ready to Transform Your Supply Chain?</h2>
+            <h2 className="text-4xl sm:text-5xl font-bold">Ready to Transform Your Operations?</h2>
             <p className="text-lg text-background/80">
-              Join 500+ enterprises already using ACS to optimize their operations.
+              Partner with Ascent Control Systems for advanced automation solutions.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
               <button className="px-8 py-3 rounded-lg bg-primary hover:bg-primary/90 text-primary-foreground font-medium transition-colors">
@@ -38,7 +38,7 @@ export function Footer() {
               className="h-16 w-auto"
             />
             <p className="text-sm text-background/70">
-              Leading supply chain automation and logistics optimization solutions for enterprises.
+              Ascent Control Systems delivers advanced automation solutions for industrial and process industries, helping businesses achieve Industry 4.0 transformation through cutting-edge technologies.
             </p>
           </div>
 
@@ -102,7 +102,7 @@ export function Footer() {
         {/* Social and Bottom */}
         <div className="pt-8 border-t border-background/20 flex flex-col sm:flex-row justify-between items-center gap-6">
           <p className="text-sm text-background/70">
-            © {currentYear} Ascent Control Systems Control Solutions. All rights reserved.
+            © {currentYear} Ascent Control Systems. All rights reserved.
           </p>
           <div className="flex gap-4">
             <a href="#" className="p-2 rounded-lg hover:bg-background/10 transition-colors" aria-label="LinkedIn">

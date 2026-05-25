@@ -1,54 +1,54 @@
 import {
-  Package,
-  Hospital,
-  Zap,
+  Car,
   Utensils,
-  ShoppingCart,
-  Factory,
-  Truck,
-  Globe,
+  Pill,
+  Package,
+  Fuel,
+  Zap,
+  Droplets,
+  ShoppingBag,
 } from 'lucide-react'
 
 const industries = [
   {
-    icon: Package,
-    name: 'E-Commerce',
-    description: 'Fast fulfillment and multi-channel order management',
-  },
-  {
-    icon: Hospital,
-    name: 'Healthcare',
-    description: 'Compliant cold chain logistics and inventory tracking',
-  },
-  {
-    icon: Zap,
-    name: 'Technology',
-    description: 'Component sourcing and build-to-order fulfillment',
+    icon: Car,
+    name: 'Automotive',
+    description: 'Advanced automation for manufacturing and assembly',
   },
   {
     icon: Utensils,
     name: 'Food & Beverage',
-    description: 'Temperature control and expiration date management',
+    description: 'Process automation and quality control systems',
   },
   {
-    icon: ShoppingCart,
-    name: 'Retail',
-    description: 'Cross-dock operations and store-level replenishment',
+    icon: Pill,
+    name: 'Pharmaceuticals',
+    description: 'Precision automation and regulatory compliance',
   },
   {
-    icon: Factory,
-    name: 'Manufacturing',
-    description: 'Just-in-time delivery and supplier collaboration',
+    icon: Package,
+    name: 'Packaging',
+    description: 'High-speed automation for packaging lines',
   },
   {
-    icon: Truck,
-    name: '3PL Providers',
-    description: 'Multi-customer visibility and billing automation',
+    icon: Fuel,
+    name: 'Oil & Gas',
+    description: 'Industrial automation for complex operations',
   },
   {
-    icon: Globe,
-    name: 'Global Enterprises',
-    description: 'International compliance and customs management',
+    icon: Zap,
+    name: 'Power & Energy',
+    description: 'Control systems and monitoring solutions',
+  },
+  {
+    icon: Droplets,
+    name: 'Water Treatment',
+    description: 'Process control and automated monitoring',
+  },
+  {
+    icon: ShoppingBag,
+    name: 'FMCG',
+    description: 'Production automation and logistics optimization',
   },
 ]
 
@@ -57,12 +57,12 @@ export function Industries() {
     <section id="industries" className="py-20 sm:py-32">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center space-y-4 mb-16">
-          <p className="text-sm font-semibold text-primary uppercase tracking-wide">Industry Solutions</p>
+          <p className="text-sm font-semibold text-primary uppercase tracking-wide">Industries We Serve</p>
           <h2 className="text-4xl sm:text-5xl font-bold text-foreground">
-            Built for Every Industry
+            Solutions for Every Industry
           </h2>
           <p className="max-w-2xl mx-auto text-lg text-foreground/70">
-            ACS serves diverse industries with tailored solutions that address unique supply chain challenges.
+            Ascent Control Systems serves diverse industries with tailored automation solutions.
           </p>
         </div>
 

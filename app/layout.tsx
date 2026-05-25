@@ -7,8 +7,8 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'ACS | Supply Chain Automation & Logistics Solutions',
-  description: 'Advanced Computing Solutions delivers intelligent supply chain automation and logistics optimization for enterprises worldwide.',
+  title: 'Ascent Control Systems | Advanced Automation Solutions for Industry 4.0',
+  description: 'Ascent Control Systems delivers cutting-edge automation solutions including Robotics, PLC Programming, SCADA, HMI Design, IoT, and Motion Control for industrial transformation.',
   icons: {
     icon: [
       {
