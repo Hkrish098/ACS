@@ -10,21 +10,8 @@ export const metadata: Metadata = {
   title: 'Ascent Control Systems | Advanced Automation Solutions for Industry 4.0',
   description: 'Ascent Control Systems delivers cutting-edge automation solutions including Robotics, PLC Programming, SCADA, HMI Design, IoT, and Motion Control for industrial transformation.',
   icons: {
-    icon: [
-      {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
-      },
-    ],
-    apple: '/apple-icon.png',
+    icon: '/ACS_favicon.png',
+    apple: '/ACS_favicon.png',
   },
 }
 
